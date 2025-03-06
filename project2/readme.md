@@ -14,3 +14,5 @@ create_book(book_request=Body()):\
 10. delete book
 11. Http Exception
 12. different routes from differnt files for same application
+app = FastAPI()
+app.include_router(auth.router)

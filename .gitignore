@@ -51,6 +51,7 @@ coverage.xml
 .pytest_cache/
 cover/
 project3/testdb.db
+project5-fullstack/testdb.db
 # Translations
 *.mo
 *.pot
